@@ -1,0 +1,295 @@
+.single__wrapper{
+    padding-top: 200px;
+}
+.single__left{
+    width: 100%;
+    max-width: 312px;
+    background-color: rgb(247, 247, 248);
+    padding: 25px;
+    box-sizing: border-box;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 5px;
+
+    background: rgb(247, 247, 248);
+    &__title{
+        padding:  10px;
+        color: rgb(43, 43, 45);
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 25.6px;
+        letter-spacing: 0.48px;
+        text-transform: capitalize;
+    }
+    &__list{
+        padding: 28px 0 26px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    &__item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: rgb(122, 122, 122);
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            letter-spacing: 0.48px;
+            text-transform: capitalize;
+    }
+    &__title__one{
+        padding: 15px 0px 15px;
+        color: rgb(43, 43, 45);
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 25.6px;
+        letter-spacing: 0.48px;
+        text-transform: capitalize;
+    }
+    &__input{
+        width: 100%;
+       margin-top: 30px;
+    }
+    &__price__text{
+        padding: 18px 0 20px;
+        color: rgb(0, 0, 0);
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0.48px;
+    }
+    .single__btn{
+        padding: 15px 23px;
+        box-sizing: border-box;
+        border: 1px solid rgb(245, 62, 50);
+        border-radius: 5px;
+        background: rgb(245, 62, 50);
+        color: rgb(255, 255, 255);
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16.8px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: capitalize;
+    }
+}
+.four1, .four2, .four3, .four4{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    background: rgb(108, 158, 255);
+}
+.four2{
+    background: rgb(222, 222, 68);
+}
+.four3{
+    background: rgb(251, 85, 85);
+}
+.four4{
+    background: rgb(100, 180, 150);
+}
+.single__link{
+    padding: 12px 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+}
+.single__links{
+    padding-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.single__link{
+    color: rgb(122, 122, 122);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.48px;
+    text-transform: capitalize;
+}
+.link1,.link6{
+    width: 100%;
+    max-width: 106px;
+}
+.link2{
+    width: 100%;
+    max-width: 71px;
+}
+.link3{
+    width: 100%;
+    max-width: 68px;
+}
+.link4{
+    width: 100%;
+    max-width: 100px;
+}
+.link5{
+width: 100%;
+max-width: 116px;
+}
+.single__wrapper{
+    display: flex;
+    gap: 20px;
+}
+.single__right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.single__right__img{
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+}
+.single__right__top{
+    display: flex;
+    gap: 20px;
+}
+.single__little__img{
+    width: 100%;
+    max-width: 83px;
+    height: 83px;
+    border-radius: 5px;
+}
+.single__right__images{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.img__wrapper{
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    align-items: center;
+    justify-content: space-between;
+}
+.single__right__texts{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    width: 100%;
+    max-width: 450px;
+}
+.single__right__title{
+    width: 100%;
+    max-width: 450px;
+    color: rgb(43, 43, 45);
+    font-family: poppins;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.48px;
+}
+.single__right__text{
+    width: 100%;
+    max-width: 450px;
+    color: rgb(122, 122, 122);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.48px;
+}
+.single__right__title__one{
+    color: rgb(43, 43, 45);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+}
+.single__right__price{
+    color: rgb(245, 62, 50);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.01px;
+    letter-spacing: 0.48px;
+}
+.single__media__wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    button{
+        border-radius: 5px;
+        border: 1px solid gray;
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+}
+.add__btn{
+    box-sizing: border-box;
+    border: 1px solid rgb(245, 62, 50);
+    border-radius: 5px;
+    background: rgb(245, 62, 50);
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    padding: 10px 12px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.single__rigth__svg{
+    font-size: 18px;
+    border-radius: 5px;
+}
+.single__right__bottom{
+    width: 100%;
+    max-width: 850px;
+    box-sizing: border-box;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+}
+.title__wrapper{
+    padding: 25px 0px 25px 25px;
+    display: flex;
+    align-items: center;
+    color: rgb(43, 43, 45);
+    gap: 30px;
+    li{
+        font-family: Poppins;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 25.5px;
+        letter-spacing: 0%;
+    }
+}
+.lorem__text{
+    padding: 25px 0px 25px 25px;
+    color: rgb(122, 122, 122);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.5px;
+    letter-spacing: 0.48px;
+}
+.title__single__lorem{
+    padding: 25px 0px 25px 25px;
+    color: rgb(43, 43, 45);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+}
