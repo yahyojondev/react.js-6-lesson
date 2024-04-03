@@ -3,7 +3,8 @@ import logo from "../../assets/images/loginlogo.png"
 
 function Login() {
   return (
-  <div className="login">
+  <div className="wrapper__login">
+    <div className="login">
          <div className="login__wrapper">
          <div className="title__img">
            <img src={logo} alt="" className="login__logo" />
@@ -24,6 +25,7 @@ function Login() {
             </div>
          </div>
     </div>
+  </div>
   </div>
   )
 }
