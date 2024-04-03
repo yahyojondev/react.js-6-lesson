@@ -224,7 +224,7 @@ max-width: 116px;
     gap: 10px;
 }
 .wrapper{
-    display: flex;
+    display: flex !important;
     align-items: center;
     gap: 5px;
     button{

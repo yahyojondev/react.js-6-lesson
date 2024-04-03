@@ -30,7 +30,7 @@ function Admin() {
   return (
     <div className="admin">
         <div className="container">
-            <div className="wrapper">
+            <div className="admin__one__wrapper">
                 {adminproducts}
             <div className="admin__cards">
                  {adminitems}           
