@@ -1,0 +1,16 @@
+.NotFound{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    top:300px;
+    left: 600px;
+    h1,h2{
+        font-size: 50px;
+        font-family: Poppins;
+    }
+    
+    
+}

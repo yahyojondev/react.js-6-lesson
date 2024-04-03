@@ -3,8 +3,12 @@ import logo from "../../assets/images/loginlogo.png"
 
 function Login() {
   return (
-    <div className="login__wrapper">
-         <img src={logo} alt="" className="login__logo" />
+  <div className="login">
+         <div className="login__wrapper">
+         <div className="title__img">
+           <img src={logo} alt="" className="login__logo" />
+           <h3 className="login__img__title">Food Trove</h3>
+         </div>
          <div className="login__form">
             <h5 className="input__title">Email Addres</h5>
             <input type="text" placeholder='Enter your email' />
@@ -20,6 +24,7 @@ function Login() {
             </div>
          </div>
     </div>
+  </div>
   )
 }
 

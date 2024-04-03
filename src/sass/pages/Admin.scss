@@ -1,0 +1,113 @@
+.admin__wrapper{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.admin__left{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.admin__title{
+    color: rgb(33, 37, 41);
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0.48px;
+}
+.admin_text{
+    width: 100%;
+    max-width: 600px;
+    color: rgb(122, 122, 122);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.5px;
+    letter-spacing: 0.48px;
+}
+.admin__number__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 5px;
+    background: rgb(247, 247, 248);
+    background-color: rgb(247, 247, 248);
+    padding: 21px 62px;
+    .admin__number__item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p{
+            color: rgb(245, 62, 50);
+            font-family: Poppins;
+            font-size: 60px;
+            font-weight: 700;
+            line-height: 60px;
+            letter-spacing: 0%;
+            text-align: center;
+        }
+        span{
+            color: rgb(33, 37, 41);
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 16px;
+            letter-spacing: 0.48px;
+            text-align: center;
+        }
+    }
+}
+.admin__right{
+    img{
+        width: 100%;
+        max-width: 636px;
+        height: 480px;
+    }
+}
+.admin__cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    .admin__card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 80px 25px 25px 25px;
+        box-sizing: border-box;
+        border: 1px solid rgb(233, 233, 233);
+        border-radius: 5px;
+        background: rgb(247, 247, 248);
+        width: 100%;
+        max-width: 300px;
+        .card__title{
+            color: rgb(43, 43, 45);
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 30.01px;
+            letter-spacing: 0.48px;
+            text-align: center;
+        }
+        .card__text{
+            color: rgb(122, 122, 122);
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            letter-spacing: 0.48px;
+            text-align: center;
+        }
+    }
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}

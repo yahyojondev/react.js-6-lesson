@@ -7,6 +7,7 @@ import Elements from "../pages/elements/Elements"
 import boxbg1 from "../assets/images/onion.png"
 import boxbg2 from "../assets/images/yogurt.png"
 import boxbg3 from "../assets/images/vegetables.png"
+import adminimg from "../assets/images/adminimg.png"
 
 
 export const  Routers =[
@@ -79,6 +80,37 @@ export const homeboxproduct =[
       id:3,
       title:"The best Organic Products Online",
       btntext:"shop Now"
+    },
+]
+
+export const adminproduct = [
+    {
+        id:1,
+        title:"Admin",
+        text:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, recusandaenecessitatibus quasi incidunt alias adipisci pariatur earum iure beatae assumend  rerum quod. Tempora magniautem a voluptatibus neque.",
+        image:adminimg
+    }
+]
+export const admincards = [
+    {
+        id:1,
+        title:"Product Packing",
+        text:"Lorem ipsum dolor sit amet,consectetur adipisicing."
+    },
+    {
+        id:2,
+        title:"24X7 Support",
+        text:"Lorem ipsum dolor sit amet,consectetur adipisicing."
+    },
+    {
+        id:3,
+        title:"Delivery in 5 Days",
+        text:"Lorem ipsum dolor sit amet,consectetur adipisicing."
+    },
+    {
+        id:4,
+        title:"Payment Secure",
+        text:"Lorem ipsum dolor sit amet,consectetur adipisicing."
     },
 ]
 

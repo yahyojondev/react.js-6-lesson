@@ -1,6 +1,128 @@
-.login__wrapper{
+.login {
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    padding: 100px 0 100px;
     display: flex;
     align-items: center;
-    justify-content: center;
     margin: auto;
+    box-sizing: border-box;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+}
+
+.login__wrapper {
+    width: 100%;
+    max-width: 338px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 44px;
+
+    .title__img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .login__img__title {
+            font-family: Poppins;
+        }
+    }
+}
+
+.login__logo {
+    width: 100%;
+    max-width: 50px;
+    height: 50px;
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+
+    .input__title {
+        color: rgb(68, 68, 68);
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0%;
+    }
+
+    input {
+        border: none;
+        outline: none;
+        padding: 12px 15px;
+        width: 100%;
+        max-width: 338px;
+        box-sizing: border-box;
+        border: 1px solid rgb(233, 233, 233);
+        border-radius: 5px;
+        background: rgb(255, 255, 255);
+    }
+}
+
+.login__btns,
+.login__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login__list {
+    .login__item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .login__span {
+        width: 25px;
+        height: 25px;
+        box-sizing: border-box;
+        border: 1px solid rgb(233, 233, 233);
+        border-radius: 5px;
+        box-shadow: inset 0px -15px 10px -11px rgba(0, 0, 0, 0.05), 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+        background: rgba(255, 255, 255, 0);
+    }
+
+    .login__link {
+        width: 100%;
+        max-width: 100px;
+        color: rgb(119, 119, 119);
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0%;
+    }
+}
+
+.login__btns {
+    .login__btn {
+        padding: 10px;
+        width: 100%;
+        max-width: 80px;
+        border-radius: 5px;
+        background: rgb(245, 62, 50);
+        color: rgb(255, 255, 255);
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16.8px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    .login__btn__link {
+        color: rgb(119, 119, 119);
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.48px;
+        text-align: center;
+    }
 }
