@@ -22,8 +22,46 @@ ul{
 a{
     text-decoration: none;
 }
+.skeleton__wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    
+}
+.skeleton__img{
+    width: 280px;
+    height: 250px;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+.skeleton__title,
+.skeleton__price{
+    width: 90%;
+    height: 30px;
+    background-color: #ddd;
+    margin-top: 10px;
+    border-radius: 10px; 
+}
+.skeleton__price{
+    width: 70%
+}
+.skeleton__anime{
+    background: linear-gradient(90deg,#f7f7f7,#ddd,#f7f7f7);
+    background-size: 200%;
+    animation: skeletonAnime 1s linear 0s infinite ;
+}
+@keyframes skeletonAnime {
+   to{
+    background-position: 200%;
+   }
+}
+
+
 @import "./components/Navbar.scss";
 @import "./components/homeHero.scss";
 @import "./components/Homeboxs.scss";
 @import "./components/Homecards.scss";
-@import "./components/SingleRouter.scss"
+@import "./components/SingleRouter.scss";
+@import "./pages/login.scss";
+@import "./pages/Admin.scss";

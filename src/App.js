@@ -5,6 +5,7 @@ import {Routers} from "./static/Router"
 import Home from './pages/home/Home'
 import NotFound from './pages/notfound/NotFound';
 import SingleRoute from './pages/single-route/SingleRoute';
+import Login from './pages/login/Login';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path='/' element={<Home/>}/>
       <Route path="/pages/:id" element ={<SingleRoute/>}/>
       <Route path='*' element={<NotFound/>}/>
+      <Route path='/login' element={<Login/>}/>
     </Routes>
    </div>
   );

@@ -10,6 +10,7 @@ import { FiShoppingCart } from "react-icons/fi";
 import logo from "../../assets/images/navbarlogo.svg"
 import logoword from "../../assets/images/navbarwordimg.svg"
 import Login from "../../pages/login/Login"
+import { useLocation } from 'react-router-dom';
 
 function Navbar() {
   let routersitem = Routers?.map(el=>(
@@ -46,7 +47,7 @@ function Navbar() {
                        </div>
                     </div>
                     <ul className="navbar__bottom__list">
-                      <li className="navbar__bottom__item"><a href={Login} className="navbar__bottom__link"><MdOutlinePerson2 />Account</a></li>
+                      <li className="navbar__bottom__item"><a  href={<Login/>} className="navbar__bottom__link"><MdOutlinePerson2 />Account</a></li>
                       <li className="navbar__bottom__item"><a href="#" className="navbar__bottom__link"><CiHeart />Wishlist</a></li>
                       <li className="navbar__bottom__item"><a href="#" className="navbar__bottom__link"><FiShoppingCart />Cart</a></li>
                     </ul>
