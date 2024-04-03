@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from "../../assets/images/loginlogo.png"
+import  {NavLink} from "react-router-dom"
 
 function Login() {
   return (
@@ -20,8 +21,8 @@ function Login() {
               <li className="login__item"><a href="#" className="login__link">Forgot Password</a></li>
             </ul>
             <div className="login__btns">
-              <a href="" className="login__btn">Login</a>
-              <a href="" className="login__btn__link">Signup ?</a>
+              <NavLink to={"/admin"} href="" className="login__btn">Login</NavLink>
+              <NavLink to={"/admin"} href="" className="login__btn__link">Signup ?</NavLink>
             </div>
          </div>
     </div>
