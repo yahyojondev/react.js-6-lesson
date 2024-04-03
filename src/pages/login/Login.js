@@ -13,9 +13,9 @@ function Login() {
          </div>
          <div className="login__form">
             <h5 className="input__title">Email Addres</h5>
-            <input type="text" placeholder='Enter your email' />
+            <input value="nabijonovdev@gmail.com" type="text" placeholder='Enter your email' />
             <h5 className="input__title">Password</h5>
-            <input type="text" placeholder='Enter your password' />
+            <input value="saber2303" type="text" placeholder='Enter your password' />
             <ul className="login__list">
               <li className="login__item"> <span className="login__span"></span><a href="#" className="login__link">Remember Me</a></li>
               <li className="login__item"><a href="#" className="login__link">Forgot Password</a></li>
